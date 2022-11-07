@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/paginas/css/login.css">
+    <link rel = "icon", href = "/imagens/icones/login.png">
+    <style>
+        body {
+            background-color: rgb(30, 34, 48);
+            overflow: hidden;
+        }
+        .menu {
+            background-color: rgb(0,0,0,1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <div class="menu-container">
+            <h1 id="titulo">Pirituba City</h1>
+            <ul id="itens-menu">
+                <li><a href="/index.html">Início</a></li>
+                <li><a href="/paginas/historia.html">História</a></li>
+                <li><a href="/paginas/dados.html">Dados locais</a></li>
+                <li><a href="/paginas/comercios.html">Comércio e Lazer</a></li>
+                <li id="btn-entrar"><a href="/paginas/login.html">Inscreva-se</a></li>
+            </ul>
+        </div>
+    </nav>
+<br>
+<br>
+<br>
+    <div class="form-container">
+    <div class="login">
+        <div>
+            <h2>Crie sua conta</h2>
+        </div>
+        <form method="POST">
+            <input type="email" name="email" placeholder="Digite seu email" autofocus/>
+            <input type="password" name="Senha" placeholder="Crie uma senha:" autofocus, maxlength="8"/>
+            <input type="password" name="Senha" placeholder="Digite novamente:" autofocus, maxlength="8"/>
+            <input type="submit" value="Cadastrar"/>
+        </form>
+        <br>
+    </div>
+    </div>
+    <footer id="nocopy">
+        <div id="lado1">
+        <h2 id="titulo2">Pirituba City</h2>
+        <p id="direitos">© Todos os direitos reservados - Copyright 2022 </p>
+        </div>
+        <div id="lado2">
+            <a href="https://www.instagram.com/piritubanet/" target="blank"><img src="/imagens/icones/instagram icon.png" alt=""></a>
+
+            <a href="https://pt-br.facebook.com/piritubanet/" target="_blank"><img src="/imagens/icones/face icon.png" alt=""></a>
+
+            <a href="https://youtu.be/vEsakDmor5o" target="_blank"><img src="/imagens/icones/youtube icon.png" alt=""> </a>
+
+            <a href="https://mobile.twitter.com/piritubanet" target="_blank"><img src="/imagens/icones/twitter icon.png" alt="">
+            </a>
+
+            <p id="nocenter">Referências:</p>
+            <div id="linha"></div>
+            <p id="nocenter">Prefeitura SP
+                <br>
+                Guia de pirituba 
+                <br>
+                Pirituba.net
+                <br>
+                Portal de Pirituba
+                </p>
+        </div>
+    </footer>
+</body>
+</html>
